@@ -1,0 +1,369 @@
+/*Home*/
+/*-------------------------------------------------------------------------------------*/
+.introduction {
+  color: #ffdcb6;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 100px;
+  font-family: craft-candy;
+}
+
+#Home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  flex-direction: column;
+  color: white;
+  margin-right: 50px;
+  margin-top: 10px;
+  list-style: none;
+}
+
+.Home {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+  margin-bottom: 1px;
+  font-family: comic-gecko;
+}
+
+#Home p {
+  font-size: 50px;
+  opacity: 0.8;
+  margin-top: 1px;
+  font-family: craft-candy;
+}
+
+.image1 {
+  background-color: #6d6d6d;
+  display: block;
+  margin: 0 auto;
+  width: 600px;
+  height: auto;
+  margin-top: 50px;
+  animation: glow1 2s infinite alternate;
+  border-radius: 10%;
+}
+@keyframes glow1 {
+  0% {
+    box-shadow: 0 0 10px #ffffff;
+  }
+  100% {
+    box-shadow: 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00,
+      0 0 50px #00ff00;
+  }
+}
+/*ABOUT*/
+/*-------------------------------------------------------------------------------------*/
+
+#About {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  flex-direction: column;
+  color: white;
+  margin-right: 50px;
+  margin-top: 10px;
+  list-style: none;
+  margin-bottom: 100px;
+}
+
+.About {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+  margin-bottom: 1px;
+  font-family: comic-gecko;
+}
+
+#About p {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  margin-top: 0px;
+  font-size: 50px;
+  opacity: 0.8;
+  font-family: craft-candy;
+}
+.image2 {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 200px;
+  border-radius: 10%;
+  animation: glow1 2s infinite alternate;
+  width: 700px;
+  height: auto;
+}
+.image3 {
+  background-color: #6d6d6d;
+  display: block;
+  margin: 0 auto;
+  width: 700px;
+  height: auto;
+  margin-top: 100px;
+  animation: glow1 2s infinite alternate;
+  border-radius: 10%;
+}
+/*TOKENOMICS*/
+/*-------------------------------------------------------------------------------------*/
+
+#Tokenomics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  flex-direction: column;
+  color: white;
+  margin-right: 50px;
+  margin-top: 10px;
+  list-style: none;
+  margin-bottom: 100px;
+}
+
+.Tokenomics {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+  margin-bottom: 15px;
+  font-family: comic-gecko;
+}
+
+#Tokenomics p {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 0px;
+  font-size: 20px;
+  font-size: 35px;
+}
+/*BOX*/
+/*-------------------------------------------------------------------------------------*/
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  flex: 2;
+  border: 3px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  align-items: center;
+  display: flex;
+  height: 200px;
+  width: 200px;
+  transition: 1s ease;
+}
+/*-------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------*/
+/*BOX1*/
+/*-------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------*/
+.total-supply {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.total-supply h4 {
+  display: flex;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-top: 1px;
+}
+.total-supply h4 span {
+  white-space: nowrap;
+  margin: 5px;
+  color: #ffdcb6;
+}
+.total-supply h5 {
+  margin-top: 0px;
+}
+.total-supply h4 span::after {
+  content: " ";
+}
+
+/*-------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------*/
+/*BOX2*/
+/*-------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------*/
+.Developer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: -25px;
+}
+
+.Developer h4 {
+  margin: 0;
+  color: #ffdcb6;
+  margin-top: 1px;
+}
+
+.Developer .dev-allocation {
+  display: block;
+  margin-bottom: 0px;
+}
+
+.Developer .percentage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  color: white;
+}
+.Developer:hover .percentage {
+  color: #1d2323;
+}
+.box:hover {
+  background-color: #fc4f00;
+  color: #1d2323;
+  border-radius: 50% 20% / 10% 40%;
+}
+
+.custom-box {
+  border: 3px solid black;
+  color: #ffdcb6;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 230px;
+  transition: 1s ease;
+  margin-top: 20px;
+}
+
+.box-content {
+  text-align: center;
+  color: white;
+  opacity: 0.8;
+  font-family: craft-candy;
+}
+
+.custom-box:hover {
+  align-items: center;
+  justify-content: center;
+  background-color: #fc4f00;
+  border-radius: 50% 20% / 10% 40%;
+}
+
+.box-content h4 span {
+  color: #ffdcb6;
+  font-family: comic-gecko;
+}
+
+.image4 {
+  background-color: #6d6d6d;
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+  height: auto;
+  margin-top: 100px;
+  animation: glow1 2s infinite alternate;
+  border-radius: 10%;
+}
+/*-------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------*/
+/*BOX3*/
+/*-------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------*/
+
+.Cex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Cex h4 {
+  display: flex;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.Cex h4 span {
+  white-space: nowrap;
+  margin: 5px;
+  color: #ffdcb6;
+}
+.Cex h5 {
+  margin-top: 0px;
+  text-align: center;
+}
+.Cex h4 span::after {
+  content: " ";
+}
+/*-------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------*/
+/*BOX4*/
+/*-------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------*/
+
+.liquidity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.liquidity h4 {
+  display: flex;
+  text-align: center;
+  margin-top: 1px;
+}
+.liquidity h4 span {
+  white-space: nowrap;
+  margin: 5px;
+  color: #ffdcb6;
+}
+.liquidity h7 {
+  margin-top: 0px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.liquidity h7 span::after {
+  content: " ";
+}
+/*-------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------*/
+/*BOX5*/
+/*-------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------*/
+
+.ownership {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.ownership h4 {
+  display: flex;
+  text-align: center;
+  margin-top: 1px;
+  margin-left: 25px;
+}
+.ownership h4 span {
+  white-space: nowrap;
+  margin: 5px;
+  color: #ffdcb6;
+}
+.ownership h7 {
+  margin-top: 0px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  margin-left: 5px;
+}
+.ownership h7 span::after {
+  content: " ";
+}
+/*-------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------*/
+/*roadmap*/
+/*-------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------*/
